@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Elements Example</title>
+</head>
+<body>
+
+  <h2>My Top 5 Goals</h2>
+  <ol type="I">
+    <li>Learn HTML5</li>
+    <li>Master CSS</li>
+    <li>Understand JavaScript</li>
+    <li>Build Responsive Websites</li>
+    <li>Deploy Web Projects</li>
+  </ol>
+
+  <h2>Beautiful Landscape</h2>
+  <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Landscape" width="500">
+
+  <h2>Contact List</h2>
+  <table border="1" cellpadding="8">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>John Doe</td><td>123 Elm Street</td><td>123-456-7890</td><td>john@example.com</td></tr>
+      <tr><td>Jane Smith</td><td>456 Maple Ave</td><td>987-654-3210</td><td>jane@example.com</td></tr>
+      <tr><td>Mike Ross</td><td>789 Pine Rd</td><td>555-123-4567</td><td>mike@example.com</td></tr>
+      <tr><td>Rachel Green</td><td>101 Oak Lane</td><td>222-333-4444</td><td>rachel@example.com</td></tr>
+      <tr><td>Emma Brown</td><td>202 Cedar Blvd</td><td>999-888-7777</td><td>emma@example.com</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Registration Form</h2>
+  <form action="#" method="post">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" minlength="6" required placeholder="Minimum 6 characters"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">Select</option>
+      <option value="kenya">Kenya</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <p>Interests:</p>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="music" name="interests" value="music">
+    <label for="music">Music</label><br>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <h2>Audio Sample</h2>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>Video Sample</h2>
+  <video width="320" height="240" controls>
+    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
